@@ -25,7 +25,11 @@ export default {
     return {
       title: "Home Page",
       meta: [
-        { name: "description", content: "Vue is groovy super easy to use" },
+        {
+          hid: "description",
+          name: "description",
+          content: "Vue is groovy super easy to use",
+        },
         { name: "twitter:title", content: "Nuxt Fundamentals by Vue School" },
         { name: "twitter:description", content: "Nuxt + Vue School = 🍕" },
         { name: "twitter:image", content: "https://i.imgur.com/UYP2umJ.png" },

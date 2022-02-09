@@ -23,6 +23,11 @@ export default {
     return {
       title: this.post.title,
       meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.post.content,
+        },
         { name: "twitter:title", content: "Nuxt Fundamentals by Vue School" },
         { name: "twitter:description", content: "Nuxt + Vue School = 🍕" },
         { name: "twitter:image", content: "https://i.imgur.com/UYP2umJ.png" },
